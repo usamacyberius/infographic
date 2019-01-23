@@ -1,0 +1,301 @@
+.container-fluid{
+    background-image: url('../images/infographicwebsitebackground.png') ;     
+     
+    background-repeat:no-repeat;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    height: 1548%;
+    width: 100%;
+/* background-position: center center; */
+/* background-clip: border-box; */
+/* background-origin: padding-box; */
+/* -moz-background-size: cover; */
+/* background-size: cover; */
+
+}
+.header{
+    background-image: url('../images/visible.png') ;     
+    background-repeat:no-repeat;
+    width:55%;
+    height:7%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+}
+.packagegroup{
+    margin-top: 35px;
+}
+.package1{
+    background-image: url('../images/package-1.png') ;     
+    background-repeat:no-repeat;
+    width:35%;
+    height:8%;
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+}
+.package2{
+    background-image: url('../images/package-2.png') ;     
+    background-repeat:no-repeat;
+    width:35%;
+    height:8%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+}
+.package3{
+    background-image: url('../images/package-3.png') ;     
+    background-repeat:no-repeat;
+    width:30%;
+    height:8%;
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+}
+.whyustext{
+    margin-top: 200px
+}
+.whychooseus{
+    background-image: url('../images/whychooseus.png') ;     
+    background-repeat:no-repeat;
+    width:70%;
+    height:8%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+}
+
+.visible{
+
+    color:#1dfbce;
+    font-size: 36pt;
+    font-weight: bold;
+}
+.makeyour{
+    font-size: 9pt;
+    font-weight: bold;
+
+}
+.button{
+    background-image: url('../images/btn-lets create.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline:none;     
+    background-size: contain;
+    width: 257px;
+    height: 76px;
+    margin-top: 35px;
+}
+.letsstartbutton{
+    background-image: url('../images/btn-lets-section.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline:none;     
+    background-size: contain;
+    width: 170px;
+    height: 50px;
+    margin-top: 60px;
+    margin-right: 60px;
+}
+.centertext{
+    margin: 0 auto;
+    
+}
+.remainingbody{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.packages{
+    margin: 0 auto;
+    text-align: center;
+
+    /* border: 1px solid black; */
+}
+.letgetstarted{
+    background-image: url('../images/btn-lets create-section3.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline:none;     
+    background-size: contain;
+    width: 311px;
+    height: 76px;
+    margin-top: 35px;
+}
+.emailnow{
+    background-image: url('../images/btn-send-mail.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline:none;     
+    background-size: contain;
+    width: 311px;
+    height: 76px;
+    margin-top: 35px;
+}
+.clearfix{
+    clear: both;			
+
+}
+.floatleft{
+    float:left;
+}
+.floatright{
+    float:right;
+}
+.step1{
+
+    background-image: url('../images/step-1.png') ;     
+    background-repeat:no-repeat;
+    width:50%;
+    height:7%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+}
+.step2{
+
+    background-image: url('../images/step-2.png') ;     
+    background-repeat:no-repeat;
+    width:50%;
+    height:5%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+}
+.step3{
+
+    background-image: url('../images/step-3.png') ;     
+    background-repeat:no-repeat;
+    width:50%;
+    height:5%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+}
+.step4{
+
+    background-image: url('../images/step-4.png') ;     
+    background-repeat:no-repeat;
+    width:50%;
+    height:5%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+}
+
+.steps{
+    margin-top: 100px;
+    border: 1px solid transparent;
+
+}
+.line1{
+    background-image: url('../images/line-1.png') ;     
+    background-repeat:no-repeat;
+    width:55%;
+    height:2%;
+    margin: 400px 35px 35px 270px;
+    padding: 0px;
+    background-size: contain;
+    
+}
+.line2{
+    background-image: url('../images/line-2.png') ;     
+    background-repeat:no-repeat;
+    width:55%;
+    height:2%;
+    margin: 480px 35px 35px 240px;
+    padding: 0px;
+    background-size: contain;
+}
+.line3{
+    background-image: url('../images/line-3.png') ;     
+    background-repeat:no-repeat;
+    width:55%;
+    height:2%;
+    margin: 350px 30px 0px 250px;
+    padding: 0px;
+    background-size: contain;
+}
+.opinion{
+    background-image: url('../images/Opinions.png') ;     
+    background-repeat:no-repeat;
+    width:100%;
+    height:6%;
+    margin: 100px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+}
+.whathavwe{
+    margin-top: 100px;
+}
+.whatwehav1{
+    background-image: url('../images/whatwehv1.png') ;     
+    background-repeat:no-repeat;
+    width:25%;
+    height:5%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+
+}
+.whatwehav2{
+    background-image: url('../images/whatwehv2.png') ;     
+    background-repeat:no-repeat;
+    width:25%;
+    height:5%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+
+}.whatwehav3{
+    background-image: url('../images/whatwehv3.png') ;     
+    background-repeat:no-repeat;
+    width:25%;
+    height:5%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+
+}
+.whatwehav4{
+    background-image: url('../images/whatwehv4.png') ;     
+    background-repeat:no-repeat;
+    width:25%;
+    height:5%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+}
+.lastsection{
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7%;
+}
+.margin-l20{
+    margin-left: 20px;
+}
+.logos{
+    background-image: url('../images/rectangle.png') ;     
+    background-repeat:no-repeat;
+    width:100%;
+    height:5%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+.logoimg{
+    
+    margin-left: 100px; 
+}
