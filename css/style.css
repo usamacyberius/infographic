@@ -1,12 +1,22 @@
-.container-fluid{
+
+
+
+body{
+
+    
+}
+
+
+.container-fluid1{
     background-image: url('../images/infographicwebsitebackground.png') ;     
      
     background-repeat:no-repeat;
     margin: 0px 0px 0px 0px;
     padding: 0px;
-    height: 1548%;
+    height: 1200%;
+    background-size: 100% 100%;
     width: 100%;
-/* background-position: center center; */
+background-position: center center;
 /* background-clip: border-box; */
 /* background-origin: padding-box; */
 /* -moz-background-size: cover; */
@@ -17,7 +27,7 @@
     background-image: url('../images/Visible.png') ;     
     background-repeat:no-repeat;
     width:55%;
-    height:7%;
+    height:10%;
     margin: 0px 0px 0px 0px;
     padding: 0px;
     background-size: contain;
@@ -29,7 +39,7 @@
     background-image: url('../images/package-1.png') ;     
     background-repeat:no-repeat;
     width:35%;
-    height:8%;
+    height:10%;
     margin: 50px 0px 0px 0px;
     padding: 0px;
     background-size: contain;
@@ -38,7 +48,7 @@
     background-image: url('../images/package-2.png') ;     
     background-repeat:no-repeat;
     width:35%;
-    height:8%;
+    height:10%;
     margin: 0px 0px 0px 0px;
     padding: 0px;
     background-size: contain;
@@ -47,7 +57,7 @@
     background-image: url('../images/package-3.png') ;     
     background-repeat:no-repeat;
     width:30%;
-    height:8%;
+    height:10%;
     margin: 50px 0px 0px 0px;
     padding: 0px;
     background-size: contain;
@@ -59,7 +69,7 @@
     background-image: url('../images/whychooseus.png') ;     
     background-repeat:no-repeat;
     width:70%;
-    height:8%;
+    height:10%;
     margin: 0px 0px 0px 0px;
     padding: 0px;
     background-size: contain;
@@ -135,9 +145,10 @@
     cursor: pointer;
     outline:none;     
     background-size: contain;
-    width: 311px;
+    width: 175px;
     height: 76px;
-    margin-top: 35px;
+    margin-top: 90px;
+    margin-left: 50px;
 }
 .clearfix{
     clear: both;			
@@ -154,7 +165,7 @@
     background-image: url('../images/step-1.png') ;     
     background-repeat:no-repeat;
     width:50%;
-    height:7%;
+    height:5%;
     margin: 0px 0px 0px 0px;
     padding: 0px;
     background-size: contain;
@@ -199,7 +210,7 @@
     background-image: url('../images/line-1.png') ;     
     background-repeat:no-repeat;
     width:55%;
-    height:2%;
+    height:3%;
     margin: 400px 35px 35px 270px;
     padding: 0px;
     background-size: contain;
@@ -209,7 +220,7 @@
     background-image: url('../images/line-2.png') ;     
     background-repeat:no-repeat;
     width:55%;
-    height:2%;
+    height:3%;
     margin: 480px 35px 35px 240px;
     padding: 0px;
     background-size: contain;
@@ -218,7 +229,7 @@
     background-image: url('../images/line-3.png') ;     
     background-repeat:no-repeat;
     width:55%;
-    height:2%;
+    height:3%;
     margin: 350px 30px 0px 250px;
     padding: 0px;
     background-size: contain;
@@ -227,13 +238,13 @@
     background-image: url('../images/Opinions.png') ;     
     background-repeat:no-repeat;
     width:100%;
-    height:6%;
+    height:7%;
     margin: 100px 0px 0px 0px;
     padding: 0px;
     background-size: contain;
 }
 .whathavwe{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .whatwehav1{
     background-image: url('../images/whatwehv1.png') ;     
@@ -276,10 +287,9 @@
 .lastsection{
     margin: 100px 0px 0px 0px;
     text-align: center;
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 7%;
+    height: 5%;
 }
 .margin-l20{
     margin-left: 20px;
@@ -288,7 +298,7 @@
     background-image: url('../images/rectangle.png') ;     
     background-repeat:no-repeat;
     width:100%;
-    height:5%;
+    height:4%;
     margin: 0px 0px 0px 0px;
     padding: 0px;
     background-size: contain;
@@ -298,4 +308,21 @@
 .logoimg{
     
     margin-left: 100px; 
+}
+.yesiwant{
+    
+    background-image: url('../images/btn-yes.png') ;     
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline:none;     
+    background-size: contain;
+    width: 175px;
+    height: 76px;
+    margin-top: 60px;
+}
+.similarones{
+    width: 100%;
+    justify-content: center; /* For horizontal alignment */
 }
