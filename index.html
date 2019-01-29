@@ -4,6 +4,8 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="js/textillate/animate.css" rel="stylesheet">
+    <link href="js/textillate/style.css" rel="stylesheet">
 
 </head>
 
@@ -15,8 +17,8 @@
 
         </div>
         <div style="margin-left: 103px; margin-top:170px; position: absolute;" class="texts floatleft">
-            <p style="color:white;font-size: 18pt; font-weight: bold;" class="makeyour">Make your content look</p>
-            <h1 style="color:#1dfbce; font-size: 72pt; font-weight: bold;"class="visibletext ml13">VISIBLE</h1>
+            <p  data-in-effect="rollIn" style="color:white;font-size: 18pt; font-weight: bold;" class="tlt makeyour">Make your content look</p>
+            <h1 style="color:#1dfbce; font-size: 72pt; font-weight: bold;"class="visibletext">VISIBLE</h1>
             <p style="margin-top:10px; color:white; font-size:14pt;">Go ahead, get more interested your<br/>audience with your content!</p>
             <input type="button" class="button"/>
         </div>
@@ -268,7 +270,21 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/textillate/jquery.fittext.js"></script>
+    <script src="js/textillate/jquery.lettering.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+        <script src="js/textillate/jquery.textillate.js"></script>
+    <script>
+            $(function () {
+	        $('.tlt').textillate();
+                });
+//                 $('.visibletext')
+//       .textillate({ initialDelay: 1000, in: { delay: 3, shuffle: true } });
 
+      $('.visibletext')
+      .textillate({initialDelay: 1000, in: { effect: 'flipInY' }});
+
+    </script>
 </body>
 </html>
