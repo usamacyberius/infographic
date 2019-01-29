@@ -279,11 +279,61 @@
             $(function () {
 	        $('.tlt').textillate();
                 });
-//                 $('.visibletext')
-//       .textillate({ initialDelay: 1000, in: { delay: 3, shuffle: true } });
+                $('.visibletext')
+      .textillate({ initialDelay: 1000, in: { delay: 3, shuffle: true } });
 
-      $('.visibletext')
-      .textillate({initialDelay: 1000, in: { effect: 'flipInY' }});
+                var boolvar=0;
+        var myFunction = function() {
+                   
+                // setTimeout(function(){
+                //         $('.visibletext').text('Attractive');
+                // },2100)
+        };
+        $('.visibletext')
+                .textillate({initialDelay: 500, 
+
+                        loop: true,  
+                        autoStart: true,
+
+
+                        in: { effect: 'flipInY' }
+                        // ,
+                        // callback: function () {
+                        //         if(boolvar==0){
+                        //         $('.visibletext').text('Attractive');
+                        //         boolvar=1;
+                        // }else if(boolvar==1){
+                        //         $('.visibletext').text('Substantial');
+                        //         boolvar=2;
+
+                        // }
+                        // else if(boolvar==2){
+                        //         $('.visibletext').text('VISIBLE');
+                        //         boolvar=0;
+
+                        // }
+
+                        // }
+
+                });
+
+
+                $('.visibletext').on('outAnimationEnd.visibletext', function () {
+                        if(boolvar==0){
+                                $('.visibletext').text('Attractive');
+                                boolvar=1;
+                        }else if(boolvar==1){
+                                $('.visibletext').text('Substantial');
+                                boolvar=2;
+
+                        }
+                        else if(boolvar==2){
+                                $('.visibletext').text('VISIBLE');
+                                boolvar=0;
+
+                        }
+
+                });
 
     </script>
 </body>
