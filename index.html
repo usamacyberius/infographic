@@ -18,7 +18,17 @@
         </div>
         <div style="margin-left: 103px; margin-top:170px; position: absolute;" class="texts floatleft">
             <p  data-in-effect="rollIn" style="color:white;font-size: 18pt; font-weight: bold;" class="tlt makeyour">Make your content look</p>
-            <h1 style="color:#1dfbce; font-size: 72pt; font-weight: bold;"class="visibletext">VISIBLE</h1>
+            <h1 style="color:#1dfbce; font-size: 72pt; font-weight: bold;"class="visibletext">
+                	<ul class="texts">
+
+                        <li data-out-effect="fadeOut" data-out-shuffle="true">VISIBLE</li>
+                        <li data-in-effect="fadeIn">ATTRACTIVE</li>
+                        <li data-in-effect="fadeIn">SUBSTANTIAL</li>
+                        
+                                </ul>
+                </h1>
+            
+            
             <p style="margin-top:10px; color:white; font-size:14pt;">Go ahead, get more interested your<br/>audience with your content!</p>
             <input type="button" class="button"/>
         </div>
@@ -291,9 +301,11 @@
         };
         $('.visibletext')
                 .textillate({initialDelay: 500, 
+                        selector: '.texts',
 
                         loop: true,  
                         autoStart: true,
+                        minDisplayTime: 2000,
 
 
                         in: { effect: 'flipInY' }
@@ -318,7 +330,9 @@
                 });
 
 
-                $('.visibletext').on('outAnimationEnd.visibletext', function () {
+                $('.visibletext').on('start.visibletext', function () {
+                        $('.visibletext').text('Attractive');
+
                         if(boolvar==0){
                                 $('.visibletext').text('Attractive');
                                 boolvar=1;
