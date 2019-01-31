@@ -13,7 +13,7 @@ body{
     background-repeat:no-repeat;
     margin: 0px 0px 0px 0px;
     padding: 0px;
-    height: 1200%;
+    height: 1100%;
     background-size: 100% 100%;
     width: 100%;
 background-position: center center;
@@ -39,16 +39,17 @@ background-position: center center;
     background-image: url('../images/package-1.png') ;     
     background-repeat:no-repeat;
     width:35%;
-    height:10%;
+    height:7%;
     margin: 50px 0px 0px 0px;
     padding: 0px;
     background-size: contain;
+    
 }
 .package2{
     background-image: url('../images/package-2.png') ;     
     background-repeat:no-repeat;
     width:35%;
-    height:10%;
+    height:8%;
     margin: 0px 0px 0px 0px;
     padding: 0px;
     background-size: contain;
@@ -57,19 +58,19 @@ background-position: center center;
     background-image: url('../images/package-3.png') ;     
     background-repeat:no-repeat;
     width:30%;
-    height:10%;
+    height:6%;
     margin: 50px 0px 0px 0px;
     padding: 0px;
     background-size: contain;
 }
 .whyustext{
-    margin-top: 200px
+    margin-top: 150px;
 }
 .whychooseus{
     background-image: url('../images/whychooseus.png') ;     
     background-repeat:no-repeat;
-    width:70%;
-    height:10%;
+    width:65%;
+    height:7%;
     margin: 0px 0px 0px 0px;
     padding: 0px;
     background-size: contain;
@@ -210,7 +211,7 @@ background-position: center center;
     background-image: url('../images/line-1.png') ;     
     background-repeat:no-repeat;
     width:55%;
-    height:3%;
+    height:2%;
     margin: 400px 35px 35px 270px;
     padding: 0px;
     background-size: contain;
@@ -220,7 +221,7 @@ background-position: center center;
     background-image: url('../images/line-2.png') ;     
     background-repeat:no-repeat;
     width:55%;
-    height:3%;
+    height:2%;
     margin: 480px 35px 35px 240px;
     padding: 0px;
     background-size: contain;
